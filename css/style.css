@@ -108,7 +108,8 @@ ul li{
 
 /* TICKET */
 .ticketbg{
-    background-color:   cadetblue;
+    /* background-color:   cadetblue; */
+    background: rgb(236, 243, 248 );
 }
 .ticketboocking{
     padding: 105px 0;
@@ -116,6 +117,7 @@ ul li{
 .ticket_form{
     width: 344px;
     margin: 56px auto;
+    margin-bottom: 0;
 }
 .ticket_form ul{
     /* width: 344px; */
