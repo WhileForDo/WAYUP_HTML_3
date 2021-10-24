@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    /* font-family:  cursive; */
+}
+body{
+    font-family: Arial, sans-serif;
+}
+header {
+    color: white; 
+}
+.logo{
+    margin-top: 62px;
+}
+.header_content_container{
+    padding-top: 50px;
+}
+ 
+header a{
+    background-color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    width: 220px;
+    display:  block;
+    text-align: center;
+    line-height: 60px;
+     
+}
+
+h1{
+    font-size: 40px;
+    line-height: 48px;
+}
+h2{
+    margin: 0 auto;
+    display:   block;
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+h4{
+    width: 100%;
+    text-align: center;
+    font-size: 17px; 
+}
+.em1_1{
+    font-size: 1.4em;
+}
+.center{
+    margin: 0px auto;
+    width: 1200px;
+}
+.header_content_container{ 
+    display: flex; 
+}
+.header_bg{
+    /* background-color:  cornflowerblue; */
+    background: rgb(25, 151, 223);
+}
+header p{
+     padding-top: 0;
+     padding-bottom: 0;
+     width: 400px;
+     font-size: 17px;  
+} 
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding-top: 100px; 
+}
+ul h1{
+    margin: 0;
+}
+ul li{ 
+    padding: 15px 0;
+}
+
+
+/*    section motivations */
+.motivations{
+    color: black;
+    padding-top: 110px;
+}
+ 
+.motivationlist{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.motivation_item{
+    width: 300px;
+    /* background-color:  cornflowerblue; */
+}
+ 
+.motivation_img{
+    display:  block;
+    margin: 0 auto;
+}
+
+
+
+/* TICKET */
+.ticketbg{
+    background-color:   cadetblue;
+}
+.ticketboocking{
+    padding: 105px 0;
+}
+.ticket_form{
+    width: 344px;
+    margin: 56px auto;
+}
+.ticket_form ul{
+    /* width: 344px; */
+    padding: 0;
+    margin: 0;
+}
+.ticket_form ul li{
+    padding: 0;
+    
+    margin: 7px 0;
+}
+.ticketinput{
+    width: 100%;
+    height: 49px;
+}
+.ticketbutton{
+    background: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;  
+    text-align: center; 
+    font-size: 19px;
+}
+
+
+/* footer */
+.footer{
+    background: rgb(40, 60, 98 );
+    /* background: red; */
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 19px;
+     
+}
